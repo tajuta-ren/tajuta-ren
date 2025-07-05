@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+
+.contact {
+    max-width: 1140px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.contact-box {
+    border: 1px solid #707070;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    max-width: 1140px;
+    width: 90%;
+    margin: 20px auto;
+    margin-bottom: 40px;
+
+    p {
+        color: #707070;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .contact {
+        width: 90%;
+        height: auto;
+    }
+    .contact-box{
+        margin-bottom: 20px;
+    }
+    .contact-box p {
+        font-size: 0.8em;
+    }
+}
+
+
+.contact-textbox {
+    margin: 20px auto;
+    max-width: 1140px;
+    width: 90%;
+    
+    margin-bottom: 10px;
+}
+
+.contact-submit {
+    max-width: 1140px;
+    width: 90%;
+    margin: 20px auto;
+}
+.cheakbox{
+    max-width: 1140px;
+    width: 100%;
+    height: auto;
+    display: inline;
+}
+@media screen and (max-width:767px) {
+    .contact-textbox {
+        width: 90%;
+        height: auto;
+        padding: 0;
+    }
+
+    .contact-textbox p {
+        font-size: 0.8em;
+        
+    }
+
+    .text {
+        font-size: 0.8em;
+        
+    }
+
+    .cheakbox {
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+        display: flex;
+    }
+}
+
+.submit {
+    justify-content: center;
+    display: flex;
+
+}
+
+
+
+input[type="text"] {
+    width: 100%;
+    background-color: #fff;
+}
+
+input[type="email"] {
+    width: 100%;
+    background-color: #fff;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #707070;
+    color: #fff;
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 120px;
+
+}
+
+.border {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 0.2em;
+}
+
+.textarea-border {
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    display: block;
+    width: 100%;
+    height: 140px;
+    margin-top: 0.2em;
+}
+
+.req {
+    margin-left: 1em;
+    gap: 0.5em;
+    border: 1px solid #ff0000;
+    padding: 0 0.5rem;
+    font-size: 0.8rem;
+    color: #ff0000;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.personal-check {
+    text-align: center;
+    margin: 1em 0;
+}

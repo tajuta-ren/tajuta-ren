@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+
+.profile-container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.profile-image {
+    width: 100%;
+    max-width: 1140px;
+    height: auto; 
+    display: block;
+}
+
+.piture-max {
+    position: absolute; 
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: white; 
+    background: rgba(95, 88, 88, 0.6); 
+    padding: 10px 20px; 
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.profie-div {
+    width: 80%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.profile-details {
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.profile-textback {
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+    text-decoration-color: #707070;
+    color: #707070;
+    padding-top: 32px;
+    padding-bottom: 120px;
+    padding-right: 10px; 
+}
+
+
+/* レスポンシブ対応: 767px以下のとき */
+@media screen and (max-width: 767px) {
+    .piture-max {
+        
+        
+        position: relative; 
+        bottom: auto; 
+        left: auto; 
+        transform: none; 
+        margin-top: 20px; 
+        background: none; 
+        padding: 10px; 
+        color: #333;
+        text-align: left; 
+    }
+}
+
+/* レスポンシブ対応: 480px以下のとき */
+@media screen and (max-width: 480px) {
+    .piture-max {
+        margin-top: 15px;
+        padding: 8px; 
+        font-size: 0.9em; 
+    }
+}
+
+
+

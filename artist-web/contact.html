@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/common.js"></script>
+    <link rel="stylesheet" href="css/responsive.css" media="screen and (min-width: 481px) and (max-width: 767px)">
+    <link rel="stylesheet" href="css/responsive480.css" media="screen and (max-width: 480px)">
+    <title>artist official site</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1 class="artist-logotop">
+                <a href="index.html"><img src="image/contact/artist-logo-bl.png" alt="アーティストロゴ"></a>
+            </h1>
+        </div>
+        <nav class="hide-menu-common">
+            <ul>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="#">LIVE</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="music.html">MUSIC</a></li>
+                <li><a href="#">MOVIE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="#">ONLINE STORE</a></li>
+                <li class="sns-hmb"><a href="#"><img src="image/common/Instagram_white.png" alt="" width="42"
+                            height="42"></a>
+                    <a href="#"><img src="image/common/logo-white.png" alt="" width="42" height="42"></a>
+                    <a href="#"><img src="image/common/yt-button.png" alt="" width="42" height="42"></a>
+            </ul>
+        </nav>
+        <span class="hmbicon"><img src="image/common/ham-open.png" alt="hmb-open"></span>
+        <a href="#"><span class="mobile"><img src="image/common/mobile-icon.png" alt="mobile"></span></a>
+    </header>
+    <main>
+
+        <h2>CONTACT</h2>
+        <div class="contact">
+            <div class="contact-box">
+                <p>【注意事項】<br>
+                    受付時間：24時間<br>
+                    ・返答は営業時間内（祝日を除いた月曜～金曜11:00～17:00）となるため、3営業日ほどかかることがございます。<br>
+                    ・迷惑メール対策のせいでエラーとなり、返信メールが届かない例が頻発しております。<br>
+                    ml-stone.comからのメールを受け取れるように設定変更お願いします。<br>
+                    ・回答内容の無断転載・無断引用は固くお断りいたします。
+                </p>
+            </div>
+            <form action="check.php" method="post">
+                <div class="contact-textbox">
+                    <p class="cheakbox">
+                        選択してください<br>
+                        <label>
+                            <input type="radio" name="fc-contact" value="FC"> FCについてのお問い合わせ　
+                        </label>
+                        <label>
+                            <input type="radio" name="fc-contact" value="それ以外"> それ以外のお問い合わせ
+                        </label>
+                    </p>
+                    <div class="text">
+                        <div>
+                            <label for="name">氏名</label><em class="req">必須</em>
+                            <input type="text" id="name" name="name" required class="border">
+                        </div>
+                        <div>
+                            <label for="email">メールアドレス</label><em class="req">必須</em>
+                            <input type="email" id="email" name="email" required class="border">
+                        </div>
+                        <div>
+                            <label for="message">お問い合わせ内容</label><em class="req">必須</em>
+                            <textarea class="textarea-border" name="u-message" id="message"></textarea>
+                        </div>
+                        <p class="personal-check">
+                            <input type="checkbox" id="personal" name="u-personal" value="同意する">
+                            <label for="personal">個人情報の取り扱いに同意する</label>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="contact-submit">
+            <div class="submit">
+                <input type="submit" value="送信">
+            </div>
+        </div>
+
+    </main>
+    <footer class="back-black">
+        <a href="index.html">
+            <img class="footer-top" src="image/common/artist-logo-wh.png" alt="artist-logo-wh" height="130">
+        </a>
+        <section class="menu">
+            <div class="footer-border">
+                <p class="foot-p">(menu)</p>
+                <ul class="horizontal-menu">
+                    <a href="news.html">
+                        <li>NEWS</li>
+                    </a>
+                    <a href="#">
+                        <li>LIVE</li>
+                    </a>
+                    <a href="profile.html">
+                        <li>PROFILE</li>
+                    </a>
+                    <a href="music.html">
+                        <li>MUSIC</li>
+                    </a>
+                    <a href="#">
+                        <li>MOVIE</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>CONTACT</li>
+                    </a>
+                    <a href="#">
+                        <li>ONLINE STORE</li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+        <section class="foot-fan">
+            <div class="footer-border">
+                <p class="foot-p">(fanclub)</p>
+                <ul class="horizontal-menu">
+                    <a href="#">
+                        <li>BLOG</li>
+                    </a>
+                    <a href="#">
+                        <li>STAFF BLOG</li>
+                    </a>
+                    <a href="#">
+                        <li>Q&A</li>
+                    </a>
+                    <a href="#">
+                        <li>BACK NUMBER</li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+        <section class="foot-sup">
+            <div class="footer-border">
+                <p class="foot-p">(support)</p>
+                <ul class="horizontal-menu">
+                    <a href="#">
+                        <li>会員登録</li>
+                    </a>
+                    <a href="#">
+                        <li>マイページ</li>
+                    </a>
+                    <a href="#">
+                        <li>ログイン</li>
+                    </a>
+                    <a href="#">
+                        <li>推奨環境</li>
+                    </a>
+                    <a href="#">
+                        <li>利用規約</li>
+                    </a>
+                    <a href="#">
+                        <li>プライバシーポリシー</li>
+                    </a>
+                    <a href="#">
+                        <li>特商法と取引に関する表記</li>
+                    </a>
+                    <a href="#">
+                        <li>会員情報引継ぎ</li>
+                    </a>
+                    <a href="#">
+                        <li>お問い合わせ</li>
+                    </a>
+                    <a href="#">
+                        <li>会員退会</li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+        <section class="foot-sns">
+            <div class="sns-foot">
+                <a href="#">
+                    <img src="image/common/Instagram_white.png" alt="Instagram_white" width="42" height="42">
+                    <img src="image/common/logo-white.png" alt="X_white" width="42" height="42">
+                    <img src="image/common/yt-button.png" alt="yt_white" width="42" height="42">
+                </a>
+            </div>
+        </section>
+        <section class="foot-copylight">
+            <div class="copyright">
+                Copyrights(C)artist ALL Rights Reserved.
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>

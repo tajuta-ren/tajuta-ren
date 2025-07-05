@@ -1,0 +1,188 @@
+@charset "utf=8";
+
+body {
+    overflow-x: hidden;
+}
+
+.artist-logotop {
+    width: 30px;
+    /* 幅を縮小 */
+    height: 30px;
+    /* 高さを縮小 */
+    padding: 4px;
+    /* パディングを調整 */
+}
+
+.artist-logotop img {
+    max-width: 200px;
+    /* 画像の最大幅を調整 */
+}
+
+/* topの黒枠無くし */
+.header,
+.space {
+    padding: 0;
+}
+
+/* トップ画像を画面全体に */
+.topmv {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+/* レスポンシブバナー位置 */
+.wrapper {
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 90%;
+}
+
+/* newsのレスポンシブ */
+.box {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+
+    .left p {
+        text-align: center;
+        font-size: 0.8em;
+        border-right: none;
+        padding-right: 10px;
+        border-right: 1px solid #707070;
+    }
+
+    .divider {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+
+}
+
+/* liveのレスポンシブ */
+.box-gray {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+
+    .left p {
+        text-align: center;
+        font-size: 0.8em;
+        border-right: none;
+        padding-right: 10px;
+        border-right: 1px solid #707070;
+    }
+
+    .divider-glay {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+
+}
+
+/* musicのレスポンシブ */
+.cd {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+/* movieのレスポンシブ */
+/* .picture{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0;
+    width: 90%;
+    margin: 20px auto;
+    flex-wrap: nowrap;
+    
+} */
+.picture {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0;
+    width: 90%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    /* アイテムが折り返されるように修正 */
+    gap: 20px;
+    /* アイテム間のスペース */
+}
+
+.picture li {
+    flex: 0 1 calc(33.33% - 20px);
+    /* デフォルトの横3列設定 */
+    list-style: none;
+    /* liのデフォルトスタイルを無効化 */
+    box-sizing: border-box
+}
+
+.picture li {
+    flex: 0 1 calc(50% - 20px);
+    /* 横2列に切り替え */
+}
+
+.fsize {
+    padding-top: 0;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 0.9em;
+    width: 330px;
+}
+
+/* blogのレスポンシブ */
+.box-blue {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+
+    .left p {
+        text-align: center;
+        font-size: 0.8em;
+        border-right: none;
+        padding-right: 10px;
+        border-right: 1px solid #707070;
+    }
+
+    .divider-blue {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+
+}
+
+/* FANCLUBのレスポンシブ */
+.club {
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+
+.horizontal-menu {
+    /* flex-direction: column; 
+    li{
+        font-size: 1.2em;
+    } */
+}
+
+.footer-border {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer-border {
+
+
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}

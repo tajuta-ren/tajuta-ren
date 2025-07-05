@@ -1,0 +1,25 @@
+/* 資料のP.72の「sample.css」はこのファイルです。 */
+/* 実際の授業では「slideshow.css」に名前を変更しました。 */
+
+ul{
+    padding-left: 0;
+}
+.slide{
+    width: 90%;
+    margin: 0 auto;
+}
+.slide img{
+    width: 100%;
+    height: auto;
+}
+.slick-prev::before,
+.slick-next::before{
+    color: #000;
+}
+
+.slide{
+    display: none;
+}
+.slide.slick-initialized{
+    display: block;
+}

@@ -1,0 +1,145 @@
+@charset "utf=8";
+body{
+    overflow-x: hidden;
+}
+
+/* topの黒枠無くし */
+.header,
+.space {
+    padding: 0;
+}
+
+.artist-logotop {
+    width: 20px; 
+    height: 20px; 
+    padding-top: 10px; 
+}
+
+.artist-logotop img {
+    max-width: 150px; 
+}
+
+/* トップ画像を画面全体に */
+.topmv {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+/* レスポンシブバナー位置 */
+.wrapper{
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 90%;
+}
+/* newsのレスポンシブ */
+.box {
+    width: 90%; 
+    margin: 10px auto; 
+    padding: 10px; 
+
+    .left p {
+        text-align: center; 
+        font-size: 0.8em; 
+        border-right: none; 
+        padding-right: 10px; 
+        border-right: 1px solid #707070;
+    }
+    
+     .divider {
+        text-align: center; 
+        padding-top: 5px; 
+        padding-bottom: 15px; 
+    }
+    
+}
+/* liveのレスポンシブ */
+.box-gray {
+    width: 90%; 
+    margin: 10px auto; 
+    padding: 10px; 
+    
+    .left p {
+        text-align: center; 
+        font-size: 0.8em; 
+        border-right: none; 
+        padding-right: 10px; 
+        border-right: 1px solid #707070;
+    }
+    
+    .divider-glay {
+        text-align: center; 
+        padding-top: 5px; 
+        padding-bottom: 15px; 
+    }
+    
+}
+/* musicのレスポンシブ */
+.cd{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+/* movieのレスポンシブ */
+.picture{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0;
+    
+    
+}
+.fsize{
+    padding-top: 0;
+    padding-bottom: 40px;
+    text-align: left;
+    
+    
+    width: 330px;
+}
+/* blogのレスポンシブ */
+.box-blue {
+    width: 90%; 
+    margin: 10px auto; 
+    padding: 10px; 
+    
+    .left p {
+        text-align: center; 
+        font-size: 0.8em; 
+        border-right: none; 
+        padding-right: 10px; 
+        border-right: 1px solid #707070;
+    }
+    
+    .divider-blue {
+        text-align: center; 
+        padding-top: 5px; 
+        padding-bottom: 15px; 
+    }
+    
+}
+/* FANCLUBのレスポンシブ */
+.club{
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+.horizontal-menu {
+    flex-direction: column; 
+    li{
+        font-size: 1.2em;
+    }
+}
+.footer-border{
+    margin: 0 auto;
+    width: 100%;
+}
+.footer-border{
+
+
+width: 90%; 
+    margin: 10px auto; 
+    padding: 10px; 
+}
